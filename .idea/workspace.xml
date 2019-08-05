@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3d8001-87cb-4452-8423-ce1aa74a18cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +19,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/core/Controller.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/core/DB.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/core/Router.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="11" selection-start-line="11" selection-end-line="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -37,21 +62,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/PHP_MVC_REPO.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -64,6 +82,39 @@
             <path>
               <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP_MVC_REPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP_MVC_REPO" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -102,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565020063550</updated>
-      <workItem from="1565020064706" duration="781000" />
+      <workItem from="1565020064706" duration="1662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="781000" />
+    <option name="totallyTimeSpent" value="1662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -145,15 +196,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/helpers.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="230">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/DB.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
