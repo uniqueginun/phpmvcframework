@@ -8,4 +8,3 @@ require_once BASE_URL . DS . "bootstrap" . DS . "app.php";
 
 $app_name = getenv('APP_NAME');
 
-echo $app_name;

@@ -8,6 +8,7 @@ class ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '8d22c39e6567f3f68fd617b76fa352ab' => __DIR__ . '/../..' . '/app/helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -19,6 +20,10 @@ class ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2
         array (
             'Dotenv\\' => 7,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -29,6 +34,10 @@ class ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
@@ -42,12 +51,17 @@ class ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2
         ),
     );
 
+    public static $classMap = array (
+        'AltoRouter' => __DIR__ . '/..' . '/altorouter/altorouter/AltoRouter.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit14fdfbf22a23ae041c063e747480a2a2::$classMap;
 
         }, null, ClassLoader::class);
     }
