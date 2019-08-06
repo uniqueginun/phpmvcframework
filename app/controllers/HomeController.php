@@ -8,6 +8,11 @@ class HomeController
 {
     public function index()
     {
-        echo "test";
+        echo "this is index page";
+    }
+
+    public function aboutus()
+    {
+        echo "this is about us page";
     }
 }
