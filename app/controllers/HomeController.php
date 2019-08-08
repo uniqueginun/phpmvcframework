@@ -8,7 +8,7 @@ class HomeController
 {
     public function index()
     {
-        echo "this is index page";
+        return view('home.index');
     }
 
     public function aboutus()

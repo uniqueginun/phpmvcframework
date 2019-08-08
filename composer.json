@@ -8,6 +8,8 @@
 
     "require": {
         "vlucas/phpdotenv": "^3.4",
-        "altorouter/altorouter": "^1.2"
+        "altorouter/altorouter": "^1.2",
+        "philo/laravel-blade": "^3.1",
+        "filp/whoops": "^2.5"
     }
 }
